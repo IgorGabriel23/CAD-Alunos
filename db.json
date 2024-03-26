@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Glauco Todesco",
+      "course": "Computação"
+    },
+    {
+      "id": "2",
+      "name": "Maria do Socorro",
+      "course": "Letras"
+    },
+    {
+      "id": "3",
+      "name": "Antero Silva",
+      "course": "Eventos"
+    },
+    {
+      "id": "4",
+      "name": "",
+      "course": ""
+    },
+    {
+      "id": "5",
+      "name": "2",
+      "course": "2"
+    }
+  ]
+}
