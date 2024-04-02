@@ -1,18 +1,8 @@
-<p>students works!</p>
 <div class="container bg-light p-4">
     <div class="row">
       <div class="bg-primary-subtle p-3">
         <h1 class="text-center">Cadastro de Alunos</h1>
         <form [formGroup]="formGroupStudents">
-          <div class="mb-3">
-            <label for="matricula" class="form-label">Matricula</label>
-            <input type="text" 
-                  class="form-control"   
-                  id="matricula" 
-                   
-                  formControlName="id"
-            />
-          </div>
   
           <div class="mb-3">
             <label for="nome" class="form-label">Nome</label>
@@ -42,6 +32,7 @@
                 <th scope="col">Matricula</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Curso</th>
+                <th class="d-flex justify-content-end" scope="col">Opções</th>
                 
               </tr>
             </thead>
@@ -50,6 +41,10 @@
                 <th scope="row">{{student.id}}</th>
                 <td>{{student.name}}</td>
                 <td>{{student.course}}</td>
+                <td class="d-flex justify-content-end">
+                  <button class="btn btn-danger me-2"(click)="delete(student)">Remover</button>
+                  <button class="btn btn-primary"(click)="edit(student)">Alterar</button>
+                </td>
               </tr>
               
             </tbody>
