@@ -4,6 +4,16 @@
       "id": 1,
       "name": "Glauco Todesco Silva",
       "course": "Computação"
+    },
+    {
+      "id": 2,
+      "name": "Igor",
+      "course": "ADS"
+    },
+    {
+      "id": 3,
+      "name": "Adrobasvalda",
+      "course": "Engenharia"
     }
   ]
 }
