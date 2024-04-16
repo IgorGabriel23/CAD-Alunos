@@ -43,7 +43,7 @@ export class StudentsComponent implements OnInit {
           next: () => {
             this.loadStudents();
             this.isEditing = false;
-            this.submited = false;
+            this.formGroupStudents.reset();
           }
         })
       }
@@ -51,12 +51,11 @@ export class StudentsComponent implements OnInit {
         this.service.save(this.formGroupStudents.value).subscribe({
           next: data => {
             this.students.push(data);
-            this.submited = false;
+            this.formGroupStudents.reset();
           }
         })
       }
     }
-    this.formGroupStudents.reset();
   }
 
   delete(student: Student) {

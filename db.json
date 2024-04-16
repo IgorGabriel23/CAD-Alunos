@@ -2,18 +2,18 @@
   "students": [
     {
       "id": 1,
-      "name": "Glauco Todesco Silva",
-      "course": "Computação"
-    },
-    {
-      "id": 2,
-      "name": "Igor",
+      "name": "José Silva Jr.",
       "course": "ADS"
     },
     {
+      "id": 2,
+      "name": "Hipopotamo Perigoso",
+      "course": "Administração de Empresas"
+    },
+    {
       "id": 3,
-      "name": "Adrobasvalda",
-      "course": "Engenharia"
+      "name": "Sulfato Hipocloroso de Sódio",
+      "course": "Direito"
     }
   ]
 }
